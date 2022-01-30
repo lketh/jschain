@@ -1,0 +1,23 @@
+{
+  "name": "chainshot-blockchain-client",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "jayson": "^3.6.6",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0"
+  }
+}
